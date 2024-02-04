@@ -26,7 +26,7 @@ class NodeJsSetup extends BaseSetup {
         'form' => [
             'node_version' => [ 
                 'type' => 'select',
-                'options' => ['v20.10.0', 'v18.18.2', 'v16.20.2'],
+                'options' => ['v20.11.0', 'v20.10.0'],
             ],
             'start_script' => ['type'=>'text', 'placeholder'=>'npm run start'],
             'port' => ['type' => 'text', 'placeholder' => '3000'],
@@ -34,7 +34,7 @@ class NodeJsSetup extends BaseSetup {
         'database' => false,
         'server' => [
             'php' => [
-                'supported' => [ '7.2','7.3','7.4','8.0','8.1','8.2' ],
+                'supported' => [ '8.2','8.1','7.4','7.3' ],
             ]
         ],
     ];
